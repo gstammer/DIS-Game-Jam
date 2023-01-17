@@ -138,11 +138,14 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   upSprite: {fileID: 21300000, guid: a7a6b577b7e5343faa4d5ab071da241c, type: 3}
-  upForce: 5
+  winSprite: {fileID: 21300000, guid: b32c61b55e8814bdd9243445b1381563, type: 3}
+  upForce: 7
   coolDownTime: 0.5
   spriteRevertTime: 0.5
   Poof: {fileID: 805699052533978395, guid: 530b5a96cfd7f478eb2d21fd4f8cff39, type: 3}
   poofOffset: 1.5
+  deathSpeed: 50
+  deathTime: 0.5
 --- !u!95 &269240898873708524
 Animator:
   serializedVersion: 4
